@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+
+#header-container {
+  display: flex;
+  padding: 0 70px;
+}
+
+#header-container p {
+  font-size: 15px;
+  width: 100px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+#header-container p:hover {
+  opacity: 0.3;
+}
+
+
+.home-container {
+  padding: 50px;
+}
+
+.login-container {
+  padding: 50px;
+}
+
+.register-container {
+  padding: 50px;
+}
+
+.emails-container {
+  padding: 50px;
+}
+
+.emails-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.email-item {
+  margin-top: 35px;
+  width: 250px;
+}
